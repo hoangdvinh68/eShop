@@ -10,13 +10,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Basket.API", "src\ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Catalog.API", "src\services\eShop.Catalog.API\eShop.Catalog.API.csproj", "{BE5A61AB-58D5-4D3E-B8E5-EEA77B84C3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Discount.API", "src\services\eShop.Discount.API\eShop.Discount.API.csproj", "{F5544F9D-0088-4785-B79B-45C6875DD003}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Discount.Grpc", "src\services\eShop.Discount.Grpc\eShop.Discount.Grpc.csproj", "{F5544F9D-0088-4785-B79B-45C6875DD003}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Ordering.API", "src\services\eShop.Ordering.API\eShop.Ordering.API.csproj", "{241A4A8F-59B6-4573-95F8-0E01D2B0152C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-gateways", "api-gateways", "{AE00AAA3-652E-4E7C-B90D-30FE6F23338D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Shared", "src\building-blocks\eShop.Shared\eShop.Shared.csproj", "{2B984C56-1B01-4B48-AF72-FA3C0F1AF8A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18A57F7A-29BA-4819-97D6-0A032473E14D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

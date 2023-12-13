@@ -7,10 +7,5 @@ namespace eShop.Shared.Controllers;
 [Route("api/v1[controller]/[action]")]
 public class BaseController : ControllerBase
 {
-    protected readonly IMediator Mediator;
-
-    public BaseController(IMediator mediator)
-    {
-        Mediator = mediator;
-    }
+    
 }
